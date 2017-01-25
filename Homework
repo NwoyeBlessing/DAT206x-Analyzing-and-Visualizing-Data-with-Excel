@@ -1,0 +1,211 @@
+Which two actions unhide a worksheet in a workbook?
+  Right-click a worksheet tab, and click Unhide.
+  Right-click anywhere in the worksheet, and click Unhide.
+  On the Home tab, click Format in the Cells group, select Hide & Unhide, and click Unhide Sheet.
+  On the Page Layout tab, select View in the Sheet Options group.
+correct 1 and 3
+
+When using the VLOOKUP function, what is the purpose of the fourth parameter?
+  Provide the value to be found.
+  Provide a table array where the value should be retrieved.
+  Provide a column number in the table array from which the matching value should be returned.
+  Provide a logical value whether to find an exact match or the closest match. correct
+correct 4
+
+You can use VLOOKUP to combine data into one range. What are two challenges of creating pivot tables based on this range?
+  VLOOKUP needs to be recalculated when a change is made to a particular row in the table array, which can be very slow.
+  VLOOKUP cannot bring data from a worksheet that is not in the same workbook.
+  VLOOKUP must return an exact match to the lookup value.
+  VLOOKUP limits the number of rows to the maximum number of rows that Excel can handle.
+correct 1 and 4
+
+What are three reasons to use tables in Excel?
+To prevent accidental deletion of rows or columns.
+To manage data in rows and columns in the worksheet independently.
+To improve maintenance by creating expressions that refer to column names.
+To quickly format table data by applying a predefined or custom table
+correct 2 and 3 and 4
+
+Which two components can be connected with a slicer?
+  Named range
+  Pivot table
+  Excel chart
+  Pivot chart 
+correct 2 and 4
+
+Where do the sales figures shown in the charts come from?
+  SQL database
+  Excel data model
+  Sales Worksheet 
+  Products Worksheet
+  Dashboard - CA Worksheet 
+correct 3
+
+Where does the product's categories and segments data come from? (Select two that apply)
+  SQL database
+  Excel data model
+  Sales Worksheet
+  Products Worksheet
+  Dashboard - CA Worksheet 
+correct 3 and 4
+
+Once you have created the pivot table, you can analyze the performance of VanArsdel's manufactured goods (percent sales for goods manufactured by VanArsdel) for each State. (Hint: refer back to the Lab Overview for the discussion on the purpose of the isVanArsdel field).
+What is the percentage of VanArsdel's manufactured goods sold in Alberta? (to two decimal places in the format 00.00, without the % sign)
+47,77 correct
+
+Loading
+What is the percentage of VanArsdel's manufactured goods sold in Manitoba? (to two decimal places in the format 00.00, without the % sign)
+47,21 correct
+
+Loading
+What is the percentage of VanArsdel's manufactured goods sold in Quebec? (to two decimal places in the format 00.00, without the % sign)
+54,46 correct
+
+Which version of Excel was the Excel Data Model FIRST introduced??
+  Excel 2007
+  Excel 2010 correct
+  Excel 2013
+  Excel 2016
+
+In Excel 2016, which two options below will you find the Manage Data Model icon in order to access the Excel data model? (Hint: for those of you who don’t have Excel 2016, Dany clearly demonstrates both options within the first couple of minutes of the video).
+  Select Data tab, then Get External Data group.
+  Select Power Pivot tab, then Settings.
+  Select Data tab, then Data Tools group. correct
+  Select Power Pivot tab, then Data Model group.correct
+
+In the Diagram view of the Excel data model, what does a line between two tables represent?
+  Data flow
+  Duplicate information
+  Table relationship correct
+  Data types
+
+When you create a calculated column on a table in the Excel data model, which two sources of data can the calculated column be based on?
+  Data in another table in the data model that is related to the current table. correct
+  Data in the current table in the data model. correct
+  Data from an external source that has yet to be connected to the data model.
+  Data from a worksheet in another workbook.
+
+Which two types of relationships are supported in the Excel data model?
+  One-to-one correct
+  One-to-many correct
+  Many-to-many 
+  
+
+In which two locations can you use Data Analysis Expression (DAX)?
+  Calculated rows 
+  Calculated columns correct
+  Measures (in Excel 2013, measures are called calculated fields) correct
+  Summary functions
+
+What are measures in Excel?
+  A standard of measurement across columns.
+  A calculation that you create for the purpose of measuring an outcome or result relative to other factors. correct
+  A hard-coded value in the Excel data model.
+  A way to dynamically change Excel data sources.
+
+Which statement describes an implicit measure?
+  An implicit measure is one that you create manually.
+  An implicit measure is one that comes from outside the data model
+  An implicit measure is one that Excel generates for you when you add fields to the Values area of a pivot table. correct
+  An implicit measure is one that you create using MDX formulas.
+
+Which statement describes an explicit measure?
+  An explicit measure is one that you create manually. correct
+  An explicit measure is one that comes from outside the data model
+  An explicit measure is one that Excel generates for you when you add fields to the Values area of a pivot table.
+  An explicit measure is one that you create using MDX formulas.
+
+What does the RELATED function (DAX) return?
+  A single value that is related to the current row from another table. correct
+  A single value that is the sum of another column from another table.
+  A calculated value based on the argument that is passed to the function.
+  A calculated value based on the primary key of the table. 
+  
+How many tables were loaded into the data model?
+  5
+  6
+  7 correct
+  8
+  
+How many rows were loaded into the FactInternetSales table?
+  60397
+  60398 correct
+  60399
+  60400 
+  
+What is the total margin % of all products throughout the years?
+  67.90
+  68.90
+  69.90 correct
+  70.90 
+  
+
+What are two ways of loading data into Excel by using queries in Excel 2016?
+  Load to Excel table correct
+  Load to Excel ODBC connection
+  Load to Excel hidden worksheet
+  Load to Excel Data model correct
+
+Which three file formats are valid input for queries From File?
+  Excel file correct
+  CSV file correct
+  XML file correct
+  BMP file
+
+Where are data pre-processing steps recorded in the Query Editor?
+  In a separate .ps file
+  In the list of Applied Steps section correct
+  In a separate .vbs script file
+  In the Query Editor settings
+
+What three data pre-processing steps can be done in the Query Editor?
+  Rename source file
+  Remove columns correct
+  Split column correct
+  Replace values correct
+
+Using the Replace Values step, how many distinct values can be replaced at a time?
+  One correct
+  Two
+  Three
+  Ten 
+    
+Which district has the most total sales (highest revenue)?
+  District 01
+  District 02
+  District 03
+  District 21
+  District 22
+  District 23 correct
+
+Which district has the least total sales (lowest revenue)?
+  District 01
+  District 02 correct
+  District 03
+  District 21
+  District 22
+  District 23
+
+Which city in Texas has the most total sales (highest revenue)?
+  San Antonio
+  Houston correct
+  Austin
+  Dallas
+
+Which city in New York has the least total sales (lowest revenue)?
+  Arkport correct
+  Clayton
+  Tivoli
+  Ripley
+
+How many cities in the State of New York have sales (Revenue)? (Hint: Distinct Count aggregation might be useful)
+  710
+  711
+  712 correct
+  713 
+  
+Given what you discovered in Question 3, does the same pattern hold true in each of the individual districts?
+Yes
+  No correct 
+  
+  
